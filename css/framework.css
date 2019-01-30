@@ -9292,7 +9292,7 @@
 
 /* Colors */
 .white {
-  color: #ffffff;
+  color: #f6f6f6;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s; }
@@ -9310,7 +9310,16 @@
       color: #102dce; }
 
 .green {
-  color: #ABFF00; }
+  color: #49b85b; }
+  .green.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .green.link:hover, .green.link:focus {
+      color: #0cb658; }
+
+.dark_green {
+  color: #002823; }
   .green.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9319,7 +9328,7 @@
       color: #0cb658; }
 
 .red {
-  color: #ff0000; }
+  color: #ed193f; }
   .red.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9373,7 +9382,7 @@
       color: #000000; }
 
 .dark_gray {
-  color: #141414; }
+  color: #2C3E4F; }
   .dark_gray.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -9419,7 +9428,7 @@
 
 /* background-colors */
 .bg_white {
-  background: #ffffff; }
+  background: #f6f6f6; }
 
 .bg_white_hover {
   background: #eeeeee; }
@@ -9455,7 +9464,7 @@
   background: #0688d2; }
 
 .bg_red {
-  background: #ff0000; }
+  background: #ed193f; }
 
 .bg_red_hover {
   background: #e10000; }
@@ -9482,10 +9491,13 @@
   background: #95a5a6; }
 
 .bg_dark_gray {
-  background: #141414; }
+  background: #2C3E4F; }
 
 .bg_green {
-  background: #ABFF00; }
+  background: #49b85b; }
+
+.bg_dark_green {
+  background: #002823; }
 
 .bg_green_hover {
   background: #0cb658; }
